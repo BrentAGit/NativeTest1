@@ -11,7 +11,7 @@ class AnimalsList extends StatefulWidget {
 
 class _AnimalsListState extends State<AnimalsList> {
   List<Animal> animals = List();
-  bool iniLoaded = false;
+  bool loaded = false;
   final imagePath = "assets/images/";
   TextStyle style = TextStyle(color: Colors.black, fontFamily: 'Open Sans');
 
@@ -27,13 +27,13 @@ class _AnimalsListState extends State<AnimalsList> {
       animals.add(ar.getAnimal(i));
     }
     setState(() {
-      iniLoaded = true;
+      loaded = true;
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    if (iniLoaded) {
+    if (loaded) {
       return ListView.builder(
           itemCount: animals.length,
           itemBuilder: (context, index) {
@@ -41,7 +41,7 @@ class _AnimalsListState extends State<AnimalsList> {
           }
       );
     } else {
-      return Container(child: Text('ini wordt gelezen'));
+      return Container(child: Text('app wordt geladen'));
     }
   }
 
