@@ -127,6 +127,22 @@ List<Map<String, String>> animals = [
     "image": "wolf.jpg",
     "info": "De wolf (Canis lupus), meer specifiek de grijze wolf, is een zoogdier uit de familie hondachtigen (Canidae), die behoort tot de roofdieren (Carnivora). De wolf komt op het noordelijk halfrond voor. Er worden meerdere ondersoorten onderscheiden, waaronder enkele die zijn uitgestorven. De wolf leeft in groepen met een sociale structuur. De wolf is de voorouder van de hond (Canis lupus familiaris). Een wolf en een hond kunnen samen vruchtbare nakomelingen voortbrengen, zodat ze, volgens een gangbaar soortbegrip in de biologie, tot dezelfde soort kunnen worden gerekend. ",
     "habitat": "Wolven passen zich makkelijk aan allerlei omstandigheden aan en leven in een grote verscheidenheid aan habitats. Zowel op toendra's, steppen en prairies als in dichte bossen komen ze voor, in laagland en in gebergten. Hierdoor hebben ze zich verspreid over de gehele Holarctis, noordwaarts tot voorbij de poolcirkel, en zuidelijk tot Mexico, Zuid-Europa, Noord-India, China en zelfs in Arabië. De wolf was vroeger het roofdier met het grootste natuurlijke verspreidingsgebied. Tegenwoordig is dit de vos. ",
+  },
+  {
+    "name": "Aziatische olifant",
+    "sciencename": "Elephas maximus",
+    "type": "zoogdier",
+    "image": "aziatischeolifant.jpg",
+    "info": "De Aziatische olifant is kleiner dan de Afrikaanse olifanten. Zijn schouderhoogte is ongeveer tussen 2 en 3,5 meter en zijn gewicht tussen de 3000 en 5000 kg. Hij heeft kleine naar beneden wijzende oren en een bolle rug (in het Latijn: elephas).",
+    "habitat": "	Graslanden, tropische groenblijvende wouden, vochtige loofbossen, droge bladverliezende wouden en droge doornbossen, naast gecultiveerd en secundaire bossen en gebieden met kreupelhout.",
+  },
+  {
+    "name": "Poema",
+    "sciencename": "Puma concolor",
+    "type": "zoogdier",
+    "image": "poema.jpg",
+    "info": "De poema, bergleeuw of zilverleeuw (Puma concolor) is een katachtig dier dat in geheel Midden- en Zuid-Amerika en in het westen van Noord-Amerika voorkomt. Lang heeft men gedacht dat de poema schadelijk was voor de wildstand en uiteraard voor vee. ",
+    "habitat": "Deze katachtige weet in vrijwel alle natuurlijke leefomgevingen te overleven en de poema wordt van zeeniveau tot in het hooggebergte gevonden. Door concurrentie met de jaguar is de poema minder algemeen in laaglandregenwouden en moerassen. In gebieden waar de jaguar minder voorkomt, zoals bergbossen en graslanden, is de poema het voornaamste roofdier.",
   }
 ];
 
