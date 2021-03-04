@@ -145,4 +145,3 @@ List<Map<String, String>> animals = [
     "habitat": "Deze katachtige weet in vrijwel alle natuurlijke leefomgevingen te overleven en de poema wordt van zeeniveau tot in het hooggebergte gevonden. Door concurrentie met de jaguar is de poema minder algemeen in laaglandregenwouden en moerassen. In gebieden waar de jaguar minder voorkomt, zoals bergbossen en graslanden, is de poema het voornaamste roofdier.",
   }
 ];
-
