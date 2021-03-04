@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'animalreader.dart';
 import 'animal.dart';
+import 'animalview.dart';
 
 class AnimalsList extends StatefulWidget {
   @override
@@ -56,6 +57,17 @@ class _AnimalsListState extends State<AnimalsList> {
           fit: BoxFit.cover,
         ),
       ),
+        trailing: RaisedButton(
+            child: Icon(Icons.arrow_forward_ios),
+            onPressed: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => AnimalView())
+              );
+            }
+        )
+
     );
   }
 }
+
